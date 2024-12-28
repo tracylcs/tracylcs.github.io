@@ -198,7 +198,6 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
 
     p {
       display: inline-block;
@@ -715,9 +714,9 @@ footer.sticky-bottom {
 
   h2.bibliography {
     color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
+    border-top: 0.5px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 1rem;
     text-align: right;
   }
 

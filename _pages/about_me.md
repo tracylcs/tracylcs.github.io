@@ -1,0 +1,3 @@
+I am a fourth-year PhD student at the University of Hong Kong, where I am very fortunate to be supervised by [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/). I obtained my Bachelor degree in Computing and Data Analytics from the same university, where I was advised by [T.-H. Hubert Chan](https://i.cs.hku.hk/~hubert/). I wrote an educational storybook about fair division for secondary school students in Hong Kong with [Ka Ho Law](https://hkumath.hku.hk/MathWWW/people.php?faculty.lawkaho) during COVID-19. Currently, my research interests are Online Algorithms and Fair Allocation.
+
+My email is [cslee@cs.hku.hk](mailto:cslee@cs.hku.hk).
