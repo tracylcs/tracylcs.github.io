@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: The University of Hong Kong
+subtitle: The Hong Kong University of Science and Technology
 #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
