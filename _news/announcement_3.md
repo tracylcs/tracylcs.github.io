@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper with [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/), [Jianqiao Lu](https://jianqiaolu.github.io/) and [Xinkai Shu](https://shuxk.github.io/), titled "Online Matching Meets Sampling Without Replacement", was accepted to WINE 2024.
+My paper with [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/), [Jianqiao Lu](https://jianqiaolu.github.io/) and [Xinkai Shu](https://shuxk.github.io/), titled "Online Matching Meets Sampling Without Replacement", has been accepted to WINE 2024.

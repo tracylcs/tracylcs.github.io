@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper with [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/), [Xinkai Shu](https://shuxk.github.io/) and [Zhaozi Wang](https://cn.linkedin.com/in/zhaozi-wang-4017072a7?trk=people-guest_people_search-card), titled "The Long Arm of Nashian Allocation in Online $$p$$-Mean Welfare Maximization", was accepted to ICALP 2025.
+My paper with [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/), [Xinkai Shu](https://shuxk.github.io/) and [Zhaozi Wang](https://cn.linkedin.com/in/zhaozi-wang-4017072a7?trk=people-guest_people_search-card), titled "The Long Arm of Nashian Allocation in Online $$p$$-Mean Welfare Maximization", has been accepted to ICALP 2025.
