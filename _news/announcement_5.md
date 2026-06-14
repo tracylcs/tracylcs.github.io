@@ -6,5 +6,3 @@ related_posts: false
 ---
 
 I have officially graduated with a PhD in Computer Science from the University of Hong Kong!
-
-
