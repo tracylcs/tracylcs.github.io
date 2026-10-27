@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-27 21:00:00-0800
+date: 2026-05-24 21:00:00-0800
 inline: true
 related_posts: false
 ---
 
-I have officially joined the Hong Kong University of Science and Technology as a Postdoctoral Fellow!
+My paper with [Tian Bai](https://tianbaics.github.io/), [Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/), and [Dongchen Li](https://billyldc.github.io/), titled "Optimal Stopping with a Predicted Prior", has been accepted to EC 2026.
