@@ -1,49 +1,75 @@
 ---
 ---
 
-@inproceedings{opinion-dynamics-hardness,
-abbr={COCOON},
-author = {Chan, T.-H. Hubert and Lee, Chui Shan},
-title = {On the Hardness of Opinion Dynamics Optimization with \( L_1 \)-Budget on Varying Susceptibility to Persuasion},
-year = {2021},
-url = {https://doi.org/10.1007/978-3-030-89543-3_43},
-doi = {10.1007/978-3-030-89543-3_43},
-abstract = {Recently, Abebe et al. (KDD 2018) and Chan et al. (WWW 2019) have considered 
-an opinion dynamics optimization problem that is based on a popular model for social opinion 
-dynamics, in which each agent has some fixed innate opinion, and a resistance that measures 
-the importance it places on its innate opinion; moreover, the agents influence one another’s 
-opinions through an iterative process. Under certain conditions, this iterative process converges 
-to some equilibrium opinion vector. Previous works gave an efficient local search algorithm to 
-solve the unbudgeted variant of the problem, for which the goal is to modify the resistance of 
-any number of agents (within some given range) such that the sum of the equilibrium opinions is 
-minimized. On the other hand, it was proved that the \( L_0 \)-budgeted variant is NP-hard, where the 
-\( L_0 \)-budget is a restriction given upfront on the number of agents whose resistance may be modified.
-</p><p>
-Inspired by practical situations in which the effort to modify an agent’s resistance increases with 
-the magnitude of the change, we propose the \( L_1 \)-budgeted variant, in which the \( L_1 \)-budget is a 
-restriction on the sum of the magnitudes of the changes over all agents’ resistance parameters. 
-In this work, we show that the \( L_1 \)-budgeted variant is NP-hard via a reduction from the vertex 
-cover problem. However, contrary to the \( L_0 \)-budgeted variant, a very technical argument is needed 
-to show that the optimal solution can be achieved by focusing the given \( L_1 \)-budget on as small a 
-number of agents as possible, as opposed to spreading the budget over a large number of agents.},
-booktitle = {Proceedings of the 27th International Conference on Computing and Combinatorics (COCOON 2021)},
-pages = {515–527},
-numpages = {13},
-location = {Tainan, Taiwan},
-arxiv={2105.04105}, 
-slides={opinion-dynamics-hardness-cocoon2021.pptx}
+@misc{surprise-bag,
+abbr={WINE},
+title={Selling Surplus Foods Through Surprise Bags: Online Inventory Routing Across Dual Channels},
+author={Feng, Yiding and Lee, Chui Shan and Lyu, Guodong and Zheng, Huan},
+year={2026},
+eprint={7540361},
+archivePrefix={ssrn},
+abstract={
+Reducing food waste while preserving profit is an important operational problem for retailers of perishable products. We study a finite-horizon inventory allocation problem with a regular channel and an opaque surprise-bag channel. Before observing each period's regular demand, the retailer chooses product display quantities and surprise-bag offers. Each offered bag sells and creates a noncancellable commitment that must be fulfilled from inventory remaining at the horizon. The model incorporates waste costs and linear constraints on the expected aggregate composition of bag allocations, while allowing arbitrary correlation in regular demand across products and periods. Under productwise regular-channel profitability, an LP-based reservation policy achieves the optimal competitive ratio \( 1/(2 + \kappa) \) against a clairvoyant benchmark, where \( \kappa = w/s \) is the waste-cost-to-bag-reward ratio. An adaptive reservation policy weakly dominates the static policy in expected profit on every instance and inherits its guarantee. We also identify sufficient conditions under which deferred product assignment strictly improves optimal expected profit over immediate assignment, and extend the static guarantee to fixed multi-unit bags. In simulations calibrated from cafeteria sales data, the adaptive policy improves mean profit over the static policy by 6.2\%-9.2\% across the tested quality-floor settings.
+},
+additional_info={In Proceedings of the 22nd International Conference on Web and Internet Economics (WINE 2026)},
+location={Hong Kong},
+year={2026},
+ssrn={https://www.ssrn.com/abstract=7540361},
+doi={10.2139/ssrn.7540361},
+pdf={FLLZ_Selling_Surplus_Foods.pdf}
 }
 
-@book{fair-allocation-book,
-abbr={Book},
-author={Law, Ka Ho and Lee, Chui Shan},
-title={排難解紛的數學—公平分配 [Mathematics of resolving disputes: Fairness in sharing]},
-year={2021},
-publisher = {Hong Kong Education Bureau},
-series = {Mathematics Cabinet Series},
-ISBN = {978-988-8581-08-5},
-pdf = {fair-allocation-book.pdf}
+@misc{optimal-stopping-predicted-prior,
+abbr={EC},
+title={Optimal Stopping with a Predicted Prior}, 
+author={Bai, Tian and Huang, Zhiyi and Lee, Chui Shan and Li, Dongchen},
+year={2026},
+eprint={2511.03289},
+archivePrefix={arXiv},
+primaryClass={cs.DS},
+abstract = {There are two major models of value uncertainty in the optimal stopping literature: the
+secretary model, which assumes no prior knowledge, and the prophet inequality model, which
+assumes full information about value distributions. In practice, decision makers often rely on
+machine-learned priors that may be erroneous. Motivated by this gap, we formulate the model of
+optimal stopping with a predicted prior to design algorithms that are both consistent, exploiting
+the prediction when accurate, and robust, retaining worst-case guarantees when it is not.
+</p><p>
+Existing secretary and prophet inequality algorithms are either pessimistic in consistency or
+not robust to misprediction. A randomized combination only interpolates their guarantees linearly. We show that a family of bi-criteria algorithms achieves improved consistency-robustness
+trade-offs, both for maximizing the expected accepted value and for maximizing the probability
+of accepting the maximum value. We further prove that for the latter objective, no algorithm
+can simultaneously match the best prophet inequality algorithm in consistency, and the best
+secretary algorithm in robustness.},
+additional_info={In Proceedings of the 27th ACM Conference on Economics and Computation (EC 2026)},
+location = {Rome, Italy},
+year={2026},
+arxiv={https://arxiv.org/pdf/2511.03289},
+doi={10.48550/arXiv.2511.03289}
+}
 
+@misc{online-welfare-maximization,
+abbr={ICALP},
+title={The Long Arm of Nashian Allocation in Online \( p \)-Mean Welfare Maximization}, 
+author={Huang, Zhiyi and Lee, Chui Shan and Shu, Xinkai and Wang, Zhaozi},
+year={2025},
+eprint={2504.13430},
+archivePrefix={arXiv},
+primaryClass={cs.GT},
+abstract = {We study the online allocation of divisible items to \( n \) agents with additive valuations 
+for \( p \)-mean welfare maximization, a problem introduced by Barman, Khan, and Maiti (2022).
+Our algorithmic and hardness results characterize the optimal competitive ratios for the entire spectrum of 
+\( -\infty \le p \le 1 \).
+</p><p>
+Surprisingly, our improved algorithms for all \( p \le \frac{1}{\log n} \) are simply the greedy algorithm 
+for the Nash welfare, supplemented with two auxiliary components to ensure all agents have non-zero utilities 
+and to help a small number of agents with low utilities.
+In this sense, the long arm of Nashian allocation achieves near-optimal competitive ratios not only for 
+Nash welfare but also all the way to egalitarian welfare.},
+additional_info={In Proceedings of the 52nd International Colloquium on Automata, Languages, and Programming (ICALP 2025)},
+location = {Aarhus, Denmark},
+year={2025},
+arxiv={2504.13430},
+doi={10.48550/arXiv.2504.13430}
 }
 
 @misc{online-matching-SWOR,
@@ -84,72 +110,46 @@ doi={10.48550/arXiv.2410.06868},
 slides={online-matching-SWOR-wine2024.pptx}
 }
 
-@misc{online-welfare-maximization,
-abbr={ICALP},
-title={The Long Arm of Nashian Allocation in Online \( p \)-Mean Welfare Maximization}, 
-author={Huang, Zhiyi and Lee, Chui Shan and Shu, Xinkai and Wang, Zhaozi},
-year={2025},
-eprint={2504.13430},
-archivePrefix={arXiv},
-primaryClass={cs.GT},
-abstract = {We study the online allocation of divisible items to \( n \) agents with additive valuations 
-for \( p \)-mean welfare maximization, a problem introduced by Barman, Khan, and Maiti (2022).
-Our algorithmic and hardness results characterize the optimal competitive ratios for the entire spectrum of 
-\( -\infty \le p \le 1 \).
-</p><p>
-Surprisingly, our improved algorithms for all \( p \le \frac{1}{\log n} \) are simply the greedy algorithm 
-for the Nash welfare, supplemented with two auxiliary components to ensure all agents have non-zero utilities 
-and to help a small number of agents with low utilities.
-In this sense, the long arm of Nashian allocation achieves near-optimal competitive ratios not only for 
-Nash welfare but also all the way to egalitarian welfare.},
-additional_info={In Proceedings of the 52nd International Colloquium on Automata, Languages, and Programming (ICALP 2025)},
-location = {Aarhus, Denmark},
-year={2025},
-arxiv={2504.13430},
-doi={10.48550/arXiv.2504.13430}
+@book{fair-allocation-book,
+abbr={Book},
+author={Law, Ka Ho and Lee, Chui Shan},
+title={排難解紛的數學—公平分配 [Mathematics of resolving disputes: Fairness in sharing]},
+year={2021},
+publisher = {Hong Kong Education Bureau},
+series = {Mathematics Cabinet Series},
+ISBN = {978-988-8581-08-5},
+pdf = {fair-allocation-book.pdf}
 }
 
-@misc{optimal-stopping-predicted-prior,
-abbr={EC},
-title={Optimal Stopping with a Predicted Prior}, 
-author={Bai, Tian and Huang, Zhiyi and Lee, Chui Shan and Li, Dongchen},
-year={2026},
-eprint={2511.03289},
-archivePrefix={arXiv},
-primaryClass={cs.DS},
-abstract = {There are two major models of value uncertainty in the optimal stopping literature: the
-secretary model, which assumes no prior knowledge, and the prophet inequality model, which
-assumes full information about value distributions. In practice, decision makers often rely on
-machine-learned priors that may be erroneous. Motivated by this gap, we formulate the model of
-optimal stopping with a predicted prior to design algorithms that are both consistent, exploiting
-the prediction when accurate, and robust, retaining worst-case guarantees when it is not.
+@inproceedings{opinion-dynamics-hardness,
+abbr={COCOON},
+author = {Chan, T.-H. Hubert and Lee, Chui Shan},
+title = {On the Hardness of Opinion Dynamics Optimization with \( L_1 \)-Budget on Varying Susceptibility to Persuasion},
+year = {2021},
+url = {https://doi.org/10.1007/978-3-030-89543-3_43},
+doi = {10.1007/978-3-030-89543-3_43},
+abstract = {Recently, Abebe et al. (KDD 2018) and Chan et al. (WWW 2019) have considered 
+an opinion dynamics optimization problem that is based on a popular model for social opinion 
+dynamics, in which each agent has some fixed innate opinion, and a resistance that measures 
+the importance it places on its innate opinion; moreover, the agents influence one another’s 
+opinions through an iterative process. Under certain conditions, this iterative process converges 
+to some equilibrium opinion vector. Previous works gave an efficient local search algorithm to 
+solve the unbudgeted variant of the problem, for which the goal is to modify the resistance of 
+any number of agents (within some given range) such that the sum of the equilibrium opinions is 
+minimized. On the other hand, it was proved that the \( L_0 \)-budgeted variant is NP-hard, where the 
+\( L_0 \)-budget is a restriction given upfront on the number of agents whose resistance may be modified.
 </p><p>
-Existing secretary and prophet inequality algorithms are either pessimistic in consistency or
-not robust to misprediction. A randomized combination only interpolates their guarantees linearly. We show that a family of bi-criteria algorithms achieves improved consistency-robustness
-trade-offs, both for maximizing the expected accepted value and for maximizing the probability
-of accepting the maximum value. We further prove that for the latter objective, no algorithm
-can simultaneously match the best prophet inequality algorithm in consistency, and the best
-secretary algorithm in robustness.},
-additional_info={In Proceedings of the 27th ACM Conference on Economics and Computation (EC 2026)},
-location = {Rome, Italy},
-year={2026},
-arxiv={https://arxiv.org/pdf/2511.03289},
-doi={10.48550/arXiv.2511.03289}
-}
-
-@misc{surprise-bag,
-abbr={WINE},
-title={Selling Surplus Foods Through Surprise Bags: Online Inventory Routing Across Dual Channels},
-author={Feng, Yiding and Lee, Chui Shan and Lyu, Guodong and Zheng, Huan},
-year={2026},
-eprint={7540361},
-archivePrefix={ssrn},
-abstract={
-Reducing food waste while preserving profit is an important operational problem for retailers of perishable products. We study a finite-horizon inventory allocation problem with a regular channel and an opaque surprise-bag channel. Before observing each period's regular demand, the retailer chooses product display quantities and surprise-bag offers. Each offered bag sells and creates a noncancellable commitment that must be fulfilled from inventory remaining at the horizon. The model incorporates waste costs and linear constraints on the expected aggregate composition of bag allocations, while allowing arbitrary correlation in regular demand across products and periods. Under productwise regular-channel profitability, an LP-based reservation policy achieves the optimal competitive ratio \( 1/(2 + \kappa) \) against a clairvoyant benchmark, where \( \kappa = w/s \) is the waste-cost-to-bag-reward ratio. An adaptive reservation policy weakly dominates the static policy in expected profit on every instance and inherits its guarantee. We also identify sufficient conditions under which deferred product assignment strictly improves optimal expected profit over immediate assignment, and extend the static guarantee to fixed multi-unit bags. In simulations calibrated from cafeteria sales data, the adaptive policy improves mean profit over the static policy by 6.2\%-9.2\% across the tested quality-floor settings.
-},
-additional_info={In Proceedings of the 22nd International Conference on Web and Internet Economics (WINE 2026)},
-location={Hong Kong},
-year={2026},
-ssrn={https://www.ssrn.com/abstract=7540361},
-pdf={FLLZ_Selling_Surplus_Foods.pdf}
+Inspired by practical situations in which the effort to modify an agent’s resistance increases with 
+the magnitude of the change, we propose the \( L_1 \)-budgeted variant, in which the \( L_1 \)-budget is a 
+restriction on the sum of the magnitudes of the changes over all agents’ resistance parameters. 
+In this work, we show that the \( L_1 \)-budgeted variant is NP-hard via a reduction from the vertex 
+cover problem. However, contrary to the \( L_0 \)-budgeted variant, a very technical argument is needed 
+to show that the optimal solution can be achieved by focusing the given \( L_1 \)-budget on as small a 
+number of agents as possible, as opposed to spreading the budget over a large number of agents.},
+booktitle = {Proceedings of the 27th International Conference on Computing and Combinatorics (COCOON 2021)},
+pages = {515–527},
+numpages = {13},
+location = {Tainan, Taiwan},
+arxiv={2105.04105}, 
+slides={opinion-dynamics-hardness-cocoon2021.pptx}
 }
